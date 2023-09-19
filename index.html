@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube.com-Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icon/hamburger-menu.svg" alt="#" />
+        <img class="youtube-logo" src="icon/youtube-logo.svg" alt="#" />
+      </div>
+      <div class="middle-section">
+        <input type="text" class="search-bar" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icon/search.svg" alt="#" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icon/voice-search-icon.svg"
+            alt="#"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="uplode-icon-container">
+          <img class="uplode-icon" src="icon/upload.svg" alt="#" />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <img class="youtube-apps-icon" src="icon/youtube-apps.svg" alt="#" />
+        <div class="notifications-icon-container">
+          <img class="notification-icon" src="icon/notifications.svg" alt="#" />
+          <div class="notifications-count">7</div>
+        </div>
+
+        <img class="current-user-picture" src="channel-Img/dilip.jpg" alt="#" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icon/home.svg" alt="#" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icon/explore.svg" alt="#" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icon/subscriptions.svg" alt="#" />
+        <div>Subscription</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icon/originals.svg" alt="#" />
+        <div>Original</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icon/youtube-music.svg" alt="#" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icon/library.svg" alt="#" />
+        <div>Library</div>
+      </div>
+    </nav>
+    <main class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/apnaCollege.webp" alt="#" />
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-Img/apnacollege.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML Tutorial For Beginners In Hindi (With Notes)
+            </p>
+            <p class="video-author">ApnaCollege</p>
+            <p class="video-stats">10M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/freeCodeCamp.webp" alt="#" />
+          <!-- https://www.youtube.com/watch?v=pQN-pnXPaVg -->
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-Img/freecodeCamp.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML Full Course - Build a Website Tutorial
+            </p>
+            <p class="video-author">freeCodeCamp.org</p>
+            <p class="video-stats">7M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/node.webp" alt="#" />
+          <!-- https://www.youtube.com/watch?v=Oe421EPjeBE -->
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-Img/freecodeCamp.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Node.js and Express.js - Full Course</p>
+            <p class="video-author">freeCodeCamp.org</p>
+            <p class="video-stats">2.6M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="./thumbnails/programingWitnMosh.webp"
+            alt="#"
+          />
+          <!-- https://www.youtube.com/watch?v=eIrMbAQSU34 -->
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="./channel-Img/programingwithmosh.jpg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Java Tutorial for Beginners</p>
+            <p class="video-author">Programming with Mosh</p>
+            <p class="video-stats">9.7M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="./thumbnails/superSimpleDev.webp"
+            alt="#"
+          />
+          <!-- https://www.youtube.com/watch?v=p1QU3kLFPdg&t=243s&pp=ygUQcHV0IHlvdXIgd2Vic2l0ZQ%3D%3D -->
+
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="./channel-Img/supersimpledev.jpg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How to put an HTML website online (on the Internet)
+            </p>
+            <p class="video-author">SuperSimpleDev</p>
+            <p class="video-stats">865K views &#183; 1 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/git.webp" alt="#" />
+          <div class="video-time">14:20</div>
+        </div>
+        <!-- https://www.youtube.com/watch?v=1ibmWyt8hfw&t=600s -->
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="./channel-Img/supersimpledev.jpg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Git and GitHub - 0 Experience to Professional in 1 Tutorial (Part
+              2)
+            </p>
+            <p class="video-author">SuperSimpleDev</p>
+            <p class="video-stats">72K views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/dsa.webp" alt="#" />
+          <!-- https://www.youtube.com/watch?v=8hly31xKli0 -->
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-Img/freecodeCamp.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Algorithms and Data Structures Tutorial - Full Course for
+              Beginners
+            </p>
+            <p class="video-author">freeCodeCamp.org</p>
+            <p class="video-stats">3.6M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/gitBranching.webp" alt="#" />
+          <div class="video-time">14:20</div>
+        </div>
+        <!-- https://www.youtube.com/watch?v=Q1kHG842HoI -->
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="./channel-Img/supersimpledev.jpg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Git Branching and Merging - Detailed Tutorial
+            </p>
+            <p class="video-author">SuperSimpleDev</p>
+            <p class="video-stats">99K views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/learnC.webp" alt="#" />
+          <!-- https://www.youtube.com/watch?v=8jLOx1hD3_o -->
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-Img/freecodeCamp.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              C++ Programming Course - Beginner to Advanced
+            </p>
+            <p class="video-author">freeCodeCamp.org</p>
+            <p class="video-stats">4.3M views &#183; 1 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="./thumbnails/simpleHTMLwebsite.webp"
+            alt="#"
+          />
+          <div class="video-time">14:20</div>
+        </div>
+        <!-- https://www.youtube.com/watch?v=PlxWf493en4 -->
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-Img/freecodeCamp.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML Tutorial - How to Make a Super Simple Website
+            </p>
+            <p class="video-author">freeCodeCamp.org</p>
+            <p class="video-stats">2.9M views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/learnJAVA.webp" alt="#" />
+          <!-- https://www.youtube.com/watch?v=GoXwIVyNvX0 -->
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-Img/freecodeCamp.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Intro to Java Programming - Course for Absolute Beginners
+            </p>
+            <p class="video-author">freeCodeCamp.org</p>
+            <p class="video-stats">2.4M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./thumbnails/greatStack.webp" alt="#" />
+          <div class="video-time">14:20</div>
+        </div>
+        <!-- https://www.youtube.com/watch?v=sGQSz22U8VM -->
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-Img/greatstack.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How To Make Working Contact Form With JavaScript | Receive Form
+              Data On Email
+            </p>
+            <p class="video-author">AGreatStack</p>
+            <p class="video-stats">532K views &#183; 1 years ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
